@@ -1,4 +1,4 @@
 # Study
 - - -
 # [자료구조](./dataStructure.md)
-# [자료구조](./dataBase.md)
+# [데이터 베이스](./dataBase.md)
