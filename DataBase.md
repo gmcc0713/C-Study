@@ -62,6 +62,7 @@
 - 인스턴스 - 튜플들의 모음
 ![기본 개념](https://user-images.githubusercontent.com/59678097/232226620-2669bfe9-4601-488c-b617-f7671435e315.png)"
 
+
 ## SQL(Structured Query Language)
 
 - 구조화된 질의 언어라는 뜻으로 데이터베이스에서 사용되는 언어.
