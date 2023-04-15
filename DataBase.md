@@ -60,7 +60,7 @@
 - 튜플(로우) - 각 테이블의 행 , 테이블에서 단일 구조의 데이터 항목을 가리킨다
 - 카디널리티 - 튜플의 갯수(아래 그림에서는 3)
 - 인스턴스 - 튜플들의 모음
-<img src="[(https://user-images.githubusercontent.com/59678097/232226620-2669bfe9-4601-488c-b617-f7671435e315.png)]" width="300" height="200"/>
+![기본 개념](https://user-images.githubusercontent.com/59678097/232226620-2669bfe9-4601-488c-b617-f7671435e315.png)"
 
 ## SQL(Structured Query Language)
 
