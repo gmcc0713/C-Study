@@ -60,8 +60,7 @@
 - 튜플(로우) - 각 테이블의 행 , 테이블에서 단일 구조의 데이터 항목을 가리킨다
 - 카디널리티 - 튜플의 갯수(아래 그림에서는 3)
 - 인스턴스 - 튜플들의 모음
-
-![기본 개념.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/79879bb5-456b-423c-9d4e-e55b8cb8de9a/%EA%B8%B0%EB%B3%B8_%EA%B0%9C%EB%85%90.png)
+<img src="[(https://user-images.githubusercontent.com/59678097/232226620-2669bfe9-4601-488c-b617-f7671435e315.png)]" width="300" height="200"/>
 
 ## SQL(Structured Query Language)
 
@@ -81,14 +80,14 @@
 - 데이터들을 어떠한 형식, 구조, 화면을 통해 사용자에게 보여줄것인가에 대한 명세
 - 하나의 데이터베이스에서 여러개의 외부 스키마가 있음
 
-![외부스키마.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/a24e8921-36e2-46a8-b943-d9d4864731c4/%EC%99%B8%EB%B6%80%EC%8A%A4%ED%82%A4%EB%A7%88.png)
+![외부스키마](https://user-images.githubusercontent.com/59678097/232226625-34c7fb46-a468-451b-9bd7-f337d42ee34b.png)
 
 ### 개념 스키마
 
 - 데이터 베이스의 전체적인 논리적 구조
 - 사용자가 필요로 하는 데이터를 통합한 조직 전체의 데이터베이스로 하나만 존재하며 객체 간의 관계와 제약 조건, 데이터베이스의 접근 권한, 보안 및 무결성 규칙에     관한 명세를 뜻함
 
-![내부스키마.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/2203c0b8-4d20-4ab4-8894-4dcaecb79195/%EB%82%B4%EB%B6%80%EC%8A%A4%ED%82%A4%EB%A7%88.png)
+![내부스키마](https://user-images.githubusercontent.com/59678097/232226623-b67d559c-4c16-4c66-909f-ed20c051f928.png)
 
 ### 내부 스키마
 
@@ -96,7 +95,7 @@
 - 데이터 베이스에 저장될 레코드의 물리적인 구조, 저장 데이터 항목의 표현방법, 내부 레코드의 물리적 순서 등을 나타냄
 - **스키마 3계층 그림**
     
-    ![스키마.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/1cdc31e2-18cc-4e9a-bf69-4c5f9acab828/%EC%8A%A4%ED%82%A4%EB%A7%88.png)
+    ![스키마](https://user-images.githubusercontent.com/59678097/232226624-68151dd2-0b4d-4c97-979d-3341edaa6525.png)
     
 
 ---
