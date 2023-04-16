@@ -1,12 +1,3 @@
-
-# sql명령어
-
-show databases;                     : 데이터베이스를 보여줌
-use mysql;                               : mysql database를 사용
-show tables;                            : use한 데이터베이스 속 테이블을 보여줌
-
-select  속성 from (table이름)  : 해당 table의 속성을 보여준다 
-
 ## 제약조건
 
 데이터 무결성 제약조건
@@ -34,3 +25,11 @@ select  속성 from (table이름)  : 해당 table의 속성을 보여준다
 테이블 레벨 지정을 하는 이유
  복합 키를 지정할 경우( 2개 이상의 칼럼을 기본 키로 설정하는 것)
 ⁻ 복합 키 형태로 제약 조건을 지정할 경우 칼럼 레벨로는 불가능하며 반드시 테이블 레벨 방식을 사용해야 한다
+
+
+# sql명령어
+
+show databases;                         : 데이터베이스를 보여줌
+use mysql;                              : mysql database를 사용
+show tables;                            : use한 데이터베이스 속 테이블을 보여줌
+select  속성 from (table이름)           : 해당 table의 속성을 보여준다 
