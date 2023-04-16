@@ -1,6 +1,6 @@
 ### [데이터 베이스 이론](./DB/DB.md)
-### [SQL](./SQL/SQL.md)
-### [SQL](./Problems/problems.md)
+### [SQL 이론](./SQL/SQL.md)
+### [연습 문제](./Problems/problems.md)
 
 
 
