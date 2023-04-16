@@ -97,5 +97,5 @@ select customer.name,customer.address from customer,orders where customer.custid
 
 ### 각 고객이 구입한 책 중 가장 비싼 책
 ```sql
-select customer.name,max(saleprice) from customer,orders where customer.custid = orders.cust id group by customer.custid ;
+select customer.name,max(saleprice) from customer,orders where customer.custid = orders.custid group by customer.custid ;
 ```
