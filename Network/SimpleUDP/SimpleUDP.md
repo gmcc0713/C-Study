@@ -104,15 +104,7 @@ int Bind(const SocketAddress& inToAddress);
 
 
 
-
-
-
-
-
-
-
-
-
+## UDP 서버 구현 문제
 
 
 
@@ -167,14 +159,14 @@ int main()
 
 	while (true)
 	{
-		//UDO  데이터 수신
-		recvLen = udpSockPtr->ReceiveFrom(buf, 79, raddr);		//클라이언트로부터 값을 받아온다(recvLen - 받아온 값 길이, 에러면 - 받아온다)
+		//UDP  데이터 수신
+		recvLen = udpSockPtr->ReceiveFrom(buf, 79, raddr);//클라이언트로부터 값을 받아온다(recvLen - 받아온 값 길이, 에러면 - 받아온다)
 
-		if (recvLen < 0)											// 에러일때 - 받아와서 break로 반복문 탈출
+		if (recvLen < 0)				// 에러일때 - 받아와서 break로 반복문 탈출
 			break;
-		buf[recvLen] = '\0';										//널문자로 끝나는 문자열 생성, 받아온 값의 길이 다음번째에 null값 넣는다.
+		buf[recvLen] = '\0';	//널문자로 끝나는 문자열 생성, 받아온 값의 길이 다음번째에 null값 넣는다.
 
-		cout << "[" << raddr.ToString() << " : " << ntohs(raddr.GetPort()) << " ] " << buf << endl;		//받아온 내용 서버 콘솔창에 출력
+		cout << "[" << raddr.ToString() << " : " << ntohs(raddr.GetPort()) << " ] " << buf << endl;//받아온 내용 서버 콘솔창에 출력
 
 		udpSockPtr->SendTo(buf, recvLen, raddr);														//받았던 내용 다시 클라이언트에게 보낸다.
 	}
@@ -183,3 +175,21 @@ int main()
 	return 0;
 }
 ```
+## 1. WSAStartUp() 하기 -> WSAStartup();
+## 2. UDPSocket 생성 -> socket(AF_INET, SOCK_DGRAM, IPPROTO_UDP);
+- af : 주소 체계(address family)를 나타내는 인자. 윈도우즈에서는 대부분 AF_INET을 사용
+- type : 소켓의 종류를 나타내는 인자. SOCK_STREAM은 TCP를, SOCK_DGRAM은 UDP를 사용.
+- protocol : 프로토콜을 나타내는 인자. 0을 지정하면 주어진 소켓 종류에 따라 기본 프로토콜을 선택
+## 3. SocketAddress 객체 생성(INADDR_ANY,8000포트) -> SocketAddressPtr sockAddrPtr = make_shared<SocketAddress>(htonl(INADDR_ANY), 8000);
+- htonl(INADDR_ANY) : 주소를 32비트로 변환시켜 넣는다
+- 8000 : 포트번호 8000
+## 4. UDPSocket 객체 생성 -> UDPSocketPtr udpSockPtr = make_shared<UDPSocket>();
+- MakeShared를 사용하여 객체생성하기 위해 UDPSocketPtr타입으로 객체 생성
+## 5. Bind() 하기 ->- if (udpSockPtr->Bind(*sockAddrPtr)<0)
+- 소켓에 IP 주소와 포트 번호를 고정시킴
+					
+## 6. Recv(),Send() 하기
+- recvLen = udpSockPtr->ReceiveFrom(buf, 79, raddr);//클라이언트로부터 값을 받아온다(recvLen - 받아온 값 길이, 에러면 - 받아온다)
+- udpSockPtr->SendTo(buf, recvLen, raddr);//받았던 내용 다시 클라이언트에게 보낸다.
+
+## 7. 받아온 내용 서버 콘솔창에 출력 -> cout << "[" << raddr.ToString() << " : " << ntohs(raddr.GetPort()) << " ] " << buf << endl;
