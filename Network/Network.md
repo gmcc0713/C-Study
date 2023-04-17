@@ -70,6 +70,7 @@ void DoGameLoop()
 ```cpp
 int select(int nfds,fd_set* readfds, fd_set* writefds,fd_set* exceptfds, const timeval* timeout);
 ```
+#### nfds -> 검사 대상이 되는 파일 수
 #### readfds -> 소켓 컬랙션(읽을 준비가 되었는지 확인하고싶은 소켓을 여기 넣는다)
 - readfds에 포함된 소켓으로 패킷이 도착하면 select함수는 최대한 빨리 블로킹 상태에서 빠져나와 호출스레드를 리턴
 - 이벤트가 발생하기 전까지 블로킹 되어있다가 이벤트가 발생하는순가 블로킹이 해제된다.
