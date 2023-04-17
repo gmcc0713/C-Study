@@ -168,7 +168,7 @@ int main()
 
 		cout << "[" << raddr.ToString() << " : " << ntohs(raddr.GetPort()) << " ] " << buf << endl;//받아온 내용 서버 콘솔창에 출력
 
-		udpSockPtr->SendTo(buf, recvLen, raddr);														//받았던 내용 다시 클라이언트에게 보낸다.
+		udpSockPtr->SendTo(buf, recvLen, raddr);			//받았던 내용 다시 클라이언트에게 보낸다.
 	}
 
 
