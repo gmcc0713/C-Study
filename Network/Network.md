@@ -91,3 +91,13 @@ int select(int nfds,fd_set* readfds, fd_set* writefds,fd_set* exceptfds, const t
 7. read() / write() : 데이터 송수신
 8. close() : 소켓 종료
 9. ### [Select를 이용한 TCP 서버](./SimpleTCP/SimpleTCP.md)
+## 직렬화
+
+### 직렬화
+-  객체나 데이터를 네트워크를 통해 전송 가능한 형식으로 변환하는 과정을 의미
+### 직렬화가 필요한 이유?
+- 
+
+### 임베딩
+-크기를 저장한후 데이터들을 저장
+### 링킹
