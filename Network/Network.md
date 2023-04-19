@@ -90,7 +90,7 @@ int select(int nfds,fd_set* readfds, fd_set* writefds,fd_set* exceptfds, const t
 6. accept() : 클라이언트와 연결된 새로운 소켓 생성
 7. read() / write() : 데이터 송수신
 8. close() : 소켓 종료
-9. ### [Select를 이용한 TCP 서버](./SimpleTCP/SimpleTCP.md)
+9. ### [Select를 이용한 TCP 서버](./TCPSelect/TCPSelect.md)
 ## 직렬화
 - 직렬화란 메모리를 디스크에 저장하거나 네트워크 통ㅅㄴ에 사용하기 위한 바이트 형식으로 변환시키는 것
 - 다차원의 자료를 파일로 저장하거나 네트워크로 보내기에 알맞게 일차원으로 펼치는것
