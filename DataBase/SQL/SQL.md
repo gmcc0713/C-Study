@@ -122,3 +122,34 @@
 | MIN | 최소값 | MIN([ALL|DISTINCT] 속성이름) | MIN(price) |
 
 ---
+## 데이터 언어 종류
+### 데이터 정의어(DDL)
+- Create : 스키마, 도메인, 테이블, 뷰, 인덱스를 생성
+```sql
+create table tablename;
+```
+- Alter : table에 대한 정의를 변경하는데 사용
+```sql
+alter table newbook Add bookid integer;
+alter table newbook drop column bookid;
+```
+- Drop : 스키마, 도메인, 테이블, 뷰, 인덱스를 삭제
+- ```sql
+Drop table tablename;
+```
+### 데이터 정의어(DDL)
+- Select : 테이블 조건에 맞는 튜플을 검색
+```sql
+Select * from table (where order by group by);
+```
+- Insert : 테이블에서 조건에 맞는 튜플을 삭제
+ ```sql
+insert into newbook(bookname,publisher,price) values ('책','출판사',10000);
+//테이블명 옆에 속성들을 적으면 해당 속성만 넣을수있지만 적지 않으면 모든 속성을 넣어야 한다.
+```
+- Update : 테이블에서 조건에 맞는 튜플의 내용을 변경
+```sql
+update 테이블이름 set 속성이름1 = 값1[,속성이름2 = 값2,…][where <검색조건>]
+```
+### 데이터 정의어(DDL)
+- Commit : 명령에 의해 수행된 결과를 실제 물리적 디스크로 저장하고, 데이터 베이스 조작 작업이 완료되었음을 관리자에게 알려줌
