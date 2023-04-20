@@ -134,7 +134,7 @@ alter table newbook Add bookid integer;
 alter table newbook drop column bookid;
 ```
 - Drop : 스키마, 도메인, 테이블, 뷰, 인덱스를 삭제
-- ```sql
+```sql
 Drop table tablename;
 ```
 ### 데이터 정의어(DDL)
