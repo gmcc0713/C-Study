@@ -137,7 +137,7 @@ alter table newbook drop column bookid;
 ```sql
 Drop table tablename;
 ```
-### 데이터 정의어(DDL)
+### 데이터 제어어(DCL)
 - Select : 테이블 조건에 맞는 튜플을 검색
 ```sql
 Select * from table (where order by group by);
@@ -151,5 +151,5 @@ insert into newbook(bookname,publisher,price) values ('책','출판사',10000);
 ```sql
 update 테이블이름 set 속성이름1 = 값1[,속성이름2 = 값2,…][where <검색조건>]
 ```
-### 데이터 정의어(DDL)
+### 데이터 어(DML)
 - Commit : 명령에 의해 수행된 결과를 실제 물리적 디스크로 저장하고, 데이터 베이스 조작 작업이 완료되었음을 관리자에게 알려줌
