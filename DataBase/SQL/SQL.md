@@ -114,7 +114,7 @@
 
 ## 집계함수
 | 집계함수 | 의미 | 문법 | 사용 예 |
-| --- | --- | --- | --- |
+| --- | --- | ----- | --- |
 | SUM | 합 | SUM([ALL|DISTINCT] 속성이름) | SUM(price) |
 | AVG | 평균 | AVG([ALL|DISTINCT] 속성이름) | AVG(price) |
 | COUNT | 갯수 | COUNT([ALL|DISTINCT] 속성이름) | COUNT(price) |
