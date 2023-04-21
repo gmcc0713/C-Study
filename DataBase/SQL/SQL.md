@@ -115,11 +115,11 @@
 ## 집계함수
 | 집계함수 | 의미 | 문법 | 사용 예 |
 | --- | --- | ----- | --- |
-| SUM | 합 | SUM([ALL|DISTINCT] 속성이름) | SUM(price) |
-| AVG | 평균 | AVG([ALL|DISTINCT] 속성이름) | AVG(price) |
-| COUNT | 갯수 | COUNT([ALL|DISTINCT] 속성이름) | COUNT(price) |
-| MAX | 최대값 | MAX([ALL|DISTINCT] 속성이름) | MAX(price) |
-| MIN | 최소값 | MIN([ALL|DISTINCT] 속성이름) | MIN(price) |
+| SUM | 합 | SUM([ALL/DISTINCT] 속성이름) | SUM(price) |
+| AVG | 평균 | AVG([ALL/DISTINCT] 속성이름) | AVG(price) |
+| COUNT | 갯수 | COUNT([ALL/DISTINCT] 속성이름) | COUNT(price) |
+| MAX | 최대값 | MAX([ALL/DISTINCT] 속성이름) | MAX(price) |
+| MIN | 최소값 | MIN([ALL/DISTINCT] 속성이름) | MIN(price) |
 
 ---
 ## 데이터 언어 종류
@@ -151,5 +151,5 @@ insert into newbook(bookname,publisher,price) values ('책','출판사',10000);
 ```sql
 update 테이블이름 set 속성이름1 = 값1[,속성이름2 = 값2,…][where <검색조건>]
 ```
-### 데이터 어(DML)
+### 데이터 조작어(DML)
 - Commit : 명령에 의해 수행된 결과를 실제 물리적 디스크로 저장하고, 데이터 베이스 조작 작업이 완료되었음을 관리자에게 알려줌
