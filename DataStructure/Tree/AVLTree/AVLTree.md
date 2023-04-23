@@ -34,7 +34,9 @@ Node* RightToRight(Node* node)
 	return tmp;
 }
 ```
-- LR
+#### LR
 LL로 교체후 LL연산을 한다
-- RL
+#### RL
 RR로 교체후 RRL연산을 한다
+
+## [구현](./AVLTree DepthCheck)
