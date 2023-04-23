@@ -5,3 +5,5 @@
 2. 이 과정을 반복한다.
 
 ![SelectSort](https://user-images.githubusercontent.com/59678097/233826020-39acf891-9b44-4afc-bfc6-950d977c8656.gif)
+
+## [구현](./SelectSort.c)
