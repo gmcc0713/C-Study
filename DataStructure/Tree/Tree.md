@@ -25,3 +25,5 @@
 ### [이진 탐색 트리](./BinarySearchTree/BinarySearchTree.md)
 
 ### [AVL 트리](./AVLTree/AVLTree.md)
+
+### [힙](./Heap/Heap.md)
