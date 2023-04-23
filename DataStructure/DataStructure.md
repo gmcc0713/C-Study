@@ -1,6 +1,6 @@
 # 자료구조
 
-## [자료구조 개요](./DataStructure/DataStructure.md)
+## [자료구조 개요](./DataStructure/DataStructureInfo.md)
 ---
 ## [배열](./DataStructure/DataStructure.md)
 ## [링크드 리스트](./DataStructure/DataStructure.md)
