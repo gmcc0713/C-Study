@@ -17,3 +17,6 @@
 ### [버블정렬](./BubbleSort/BubbleSort.md)
 ### [병합정렬](./MergeSort/MergeSort.md)
 ### [퀵정렬](./QuickSort/QuickSort.md)
+
+## 각 종류별 속도 비교
+[속도비교](./SortSpeed.c)
