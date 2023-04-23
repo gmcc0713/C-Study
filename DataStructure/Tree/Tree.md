@@ -20,5 +20,5 @@
 ### 편향 트리
 - 트리가 한쪽으로 치우쳐진 모습
 - 그 높이에서의 최소의 노드만 가진다.
-### [이진 탐색 트리](./BinarySearchTree)
+### [이진 탐색 트리](./BinarySearchTree/BinarySearchTree.md)
 
