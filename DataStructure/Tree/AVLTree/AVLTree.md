@@ -8,7 +8,7 @@
 
 ## 삽입
 - 불균형 상태인지 확인후 아래의 삽인연산을 시행한다
-- LL
+#### LL
 - 노드의 왼쪽 자식 노드의 왼쪽 자식 노드에 새로운 노드가 추가 되었을때
 - 시계 방향으로 회전
 ```cpp
@@ -21,8 +21,10 @@ Node* LeftToLeft(Node* node)
 	return tmp;
 }
 ```
-- RR
-- ```cpp
+#### RR
+- 노드의 오른쪽 자식 노드의 오른쪽 자식 노드에 새로운 노드가 추가 되었을때
+- 반시계 방향으로 회전
+```cpp
 Node* RightToRight(Node* node)
 {
 	Node* tmp;
@@ -32,9 +34,6 @@ Node* RightToRight(Node* node)
 	return tmp;
 }
 ```
-- 노드의 오른쪽 자식 노드의 오른쪽 자식 노드에 새로운 노드가 추가 되었을때
-- 반시계 방향으로 회전
-- 
 - LR
 LL로 교체후 LL연산을 한다
 - RL
