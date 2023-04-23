@@ -14,5 +14,5 @@
 
 ![MergeSort](https://user-images.githubusercontent.com/59678097/233826033-5b3810ea-d23f-4e1a-8174-820445ffdbc6.gif)
 
-## [구현] (./MergeSort.c)
+## [구현](./MergeSort.c)
  
