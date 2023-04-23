@@ -22,3 +22,4 @@
 - 그 높이에서의 최소의 노드만 가진다.
 ### [이진 탐색 트리](./BinarySearchTree/BinarySearchTree.md)
 
+### [AVL 트리](./AVLTree/AVLTree.md)
