@@ -7,6 +7,6 @@
 
 ## [벡터](./Vector/Vector.md)
 ## [스택](./Stack/Stack.md)
-## [큐](./Stack/Stack.md)
+## [큐](./Queue/Queue.md)
 
 ## [트리](./Tree/Tree.md)
