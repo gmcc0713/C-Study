@@ -14,6 +14,9 @@
 ## 정렬의 종류
 ### [선택정렬](./SelectSort/SelectSort.md)
 ### [삽입정렬](./InsertSort/InsertSort.md)
-### [버블정렬](.BubbleSort/BubbleSort.md)
+### [버블정렬](./BubbleSort/BubbleSort.md)
 ### [병합정렬](./MergeSort/MergeSort.md)
 ### [퀵정렬](./QuickSort/QuickSort.md)
+
+## 각 종류별 속도 비교
+[속도비교](./SortSpeed.c)
