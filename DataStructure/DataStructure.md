@@ -12,3 +12,6 @@
 ## [큐](./Queue/Queue.md)
 
 ## [트리](./Tree/Tree.md)
+
+---
+## [해쉬](./Hash/Hash.md)
