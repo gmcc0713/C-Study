@@ -27,7 +27,7 @@
 - 그래프의 모든 정점을 포함하고 있어야 한다.
 #### 최소 신장 트리(minimum spanning tree)
 - 가중치의 합이 최소가 되는 신장트리
-
+![mst](https://github.com/gmcc0713/Study/assets/59678097/fa2d1b80-49bd-43fb-bb06-22a4f0754978)
 ### [이진 탐색 트리](./BinarySearchTree/BinarySearchTree.md)
 
 ### [AVL 트리](./AVLTree/AVLTree.md)
