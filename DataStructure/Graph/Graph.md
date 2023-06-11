@@ -28,6 +28,7 @@
 ## 탐색 알고리즘
 #### 깊이우선탐색
 - 한 방향으로 진행하다가 더이상 갈수 없게 되면 이전 정점으로 돌아와서 계속 탐색을 진행하는것,(스택을 이용)
-- ![dfs-example](https://github.com/gmcc0713/Study/assets/59678097/9e11fcda-600c-4c6c-bdbd-9a392fd3458a)
+ ![dfs-example](https://github.com/gmcc0713/Study/assets/59678097/9e11fcda-600c-4c6c-bdbd-9a392fd3458a)
 #### 너비우선탐색
 - 시작 정점에서 인접한 정점을 먼저 방문한 후 다음단계에서 그 정점들과 다시 인접한 정점들을 탐색하는 과정을 반복하며 진행(큐를 이용해서 구현)
+![9983A7335BD0156910](https://github.com/gmcc0713/Study/assets/59678097/8549fc2d-687c-408e-90e7-a6ec11b93164)
