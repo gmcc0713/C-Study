@@ -16,4 +16,4 @@
 ---
 ## [해쉬](./Hash/Hash.md)
 ## [그래프](./Graph/Graph.md)
-## [그래프](./Greedy/Greedy.md)
+## [그리디 알고리즘](./Greedy/Greedy.md)
