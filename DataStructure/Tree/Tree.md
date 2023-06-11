@@ -27,6 +27,10 @@
 - 그래프의 모든 정점을 포함하고 있어야 한다.
 #### 최소 신장 트리(minimum spanning tree)
 - 가중치의 합이 최소가 되는 신장트리
+#### 알고리즘
+- Kruskal -> 간선을 가중치에 따라 정렬을 한 뒤 사이클이 형성되지 않는 경우에만 간선을 추가하는 방식으로 동작
+- prime -> 하나의 시작 정점을 선택하고 해당 정점과 연결된 간선중 가장 작은 가중치의 간선을 선택하면서 트리를 확장해 나간다.
+- 
 ![mst](https://github.com/gmcc0713/Study/assets/59678097/fa2d1b80-49bd-43fb-bb06-22a4f0754978)
 ### [이진 탐색 트리](./BinarySearchTree/BinarySearchTree.md)
 
