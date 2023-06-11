@@ -22,6 +22,12 @@
 ### 편향 트리
 - 트리가 한쪽으로 치우쳐진 모습
 - 그 높이에서의 최소의 노드만 가진다.
+### 신장트리(Spanning Tree)
+- 사이클이 없는 트리이다.(한 정점을 지났는데 또다시 그 정점을 지나지 않는 것)
+- 그래프의 모든 정점을 포함하고 있어야 한다.
+#### 최소 신장 트리(minimum spanning tree)
+- 가중치의 합이 최소가 되는 신장트리
+
 ### [이진 탐색 트리](./BinarySearchTree/BinarySearchTree.md)
 
 ### [AVL 트리](./AVLTree/AVLTree.md)
